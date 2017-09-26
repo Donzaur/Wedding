@@ -1,0 +1,158 @@
+@font-face {
+    font-family: chalklettering;
+    src: url('Chalk.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: chalk;
+    src: url('ChalkFancy.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: bakery;
+    src: url('bakery.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: wildyouth;
+    src: url('WildYouth.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: woodlands;
+    src: url('TheWoodlands.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: AvantGarde;
+    src: url('AvantGarde.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: firsttake;
+    src: url('First Take.ttf');
+    font-weight: 400;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-main-header{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.page-background {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 35%;
+    width:auto;
+    top: 0;
+    left:0;
+    margin-top: -5em;
+}
+
+/*.page-background:after{
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.32) 0%, transparent 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.32) 0%, transparent 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.32) 0%, transparent 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52000000', endColorstr='#00000000',GradientType=0 );
+    content: '';
+    position: absolute;
+    height: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding-bottom: 25.5%;
+}*/
+
+.body-main {
+    font-family: AvantGarde;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-main-2column {
+    font-family: AvantGarde;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.groomsmenpicheader {
+    text-align:center;
+}
+
+img.groomsmenpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-table {
+    display: table;
+    margin: 0 auto;
+}
+
+.gettinghere {
+    position: absolute;
+    font-family: chalklettering;
+    color:white;
+    font-size:2.5em;
+}
+
+.gettinghere2 {
+    position: absolute;
+    font-family: chalk;
+    color: white;
+    font-size: 2.5em;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-main {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/IM+Fell+English">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+English" />
+    <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+    <style>
+        html {
+            background: url(/static/content/grotto.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .landingheader {
+            color: white;
+            text-align: center;
+            font-family: 'woodlands';
+            font-size: 5em;
+        }
+        .landingheader2 {
+            color: white;
+            text-align: center;
+            font-family: 'firsttake';
+            font-size: 5em;
+        }
+        .landingheader3 {
+            color: white;
+            text-align: center;
+            font-family: 'wildyouth';
+            font-size: 5em;
+        }
+        .Landingmenu{
+            color:white !important;
+            text-decoration:none !important;
+            list-style: none !important;
+            padding:.75em;
+            font-size:1.1em;
+            margin:auto;
+        }
+        li{
+            display:inline;
+        }
+        .MenuTable{
+            display:table;
+            margin: 0 auto;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="Menu">
+        <div class="MenuTable">
+        <ul class="Landingmenu">
+            <li><a class="Landingmenu" href="{{ url_for('home') }}">Home</a></li>
+            <li><a class="Landingmenu" href ="{{ url_for('aboutus') }}">About us</a></li>
+            <li><a class="Landingmenu" href="{{ url_for('venue') }}">Venue</a></li>
+            <li><a class="Landingmenu" href="{{ url_for('accomodations') }}">Accomodations</a></li>
+            <li><a class="Landingmenu" href="{{ url_for('groomsmen') }}">Groomsmen</a></li>
+        </ul>
+        </div>
+    </div>
+    <h1 class="landingheader">Nick &amp; Hannah</h1>
+    <h1 class="landingheader3">Nick &amp; Hannah</h1>
+</body>
+</html>

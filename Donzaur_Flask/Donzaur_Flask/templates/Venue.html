@@ -1,0 +1,42 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="page-background" style="background-image: url(/static/content/Avenue.jpg);"></div>
+
+<h2 class="body-main-header">Venue</h2>
+<div class="body-main">
+    <p>
+        Need help with where acommidations or getting there. <a href="{{ url_for('accomodations') }}">Click Here</a>
+    </p>
+    </div>
+    <div class="body-main-2column">
+        <div class="col-md-6">
+            <div class="churchimage">
+                <img src="/static/Content/MariemontChurch.jpg" alt="Mariemont Church" style="width:440px;height:330px;margin-top:1.8em;">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h2>3:30 P.M.</h2>
+            <h2>CEREMONY</h2>
+            <h4>Venue</h4>
+            <p>We are getting married in the Mariemont Chapel at 3:30.  This beatiful chapel was built in 1800.</p>
+            <h4>Address</h4>
+            <p>Located at 3908 Plainville Rd, Cincinnati, OH 45227</p>
+        </div>
+    </div>
+
+    <div class="schedulebreak"></div>
+
+    <div class="schedulerow">
+        <div class="col-md-6">
+            <h2>5:00 P.M.</h2>
+            <h2>RECEPTION</h2>
+            <h4>Venue</h4>
+            <p>We are getting married in the Mariemont Chapel at 3:30.  This beatiful chapel was built in 1800.</p>
+            <h4>Address</h4>
+            <p>Located at 3908 Plainville Rd, Cincinnati, OH 45227</p>
+        </div>
+    </div>
+    {% endblock %}
+
